@@ -1,0 +1,1976 @@
+<!DOCTYPE html>
+
+<html >
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="">
+    <title>衢州益年堂招聘</title>
+    <link rel="stylesheet" href="../static/css/common.css" />
+    <link rel="stylesheet" href="../static/swiper/swiper.css" />
+
+
+
+  <script src="../static/jQuery/zepto.min.js"></script>
+  <script src="../static/jQuery/jquery-1.8.1.min.js"></script>
+  <script src="../static/swiper/swiper.js"></script>
+  <script src="../uisvr/js/index.js"></script>
+    <!--公共样式-->
+    <style>
+        /*音乐暂停播放动画*/
+        @-webkit-keyframes musicP {
+            from { -webkit-transform: rotate(0deg); }
+            to { -webkit-transform: rotate(360deg); }
+        }
+        @-moz-keyframes musicP {
+            from { ms-transform: rotate(0deg); }
+            to { ms-transform: rotate(360deg); }
+        }
+        @-o-keyframes musicP {
+            from { ms-transform: rotate(0deg); }
+            to { ms-transform: rotate(360deg); }
+        }
+        @-ms-keyframes musicP {
+            from { ms-transform: rotate(0deg); }
+            to { ms-transform: rotate(360deg); }
+        }
+        @keyframes musicP {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        .J_music-anima{
+            -webkit-animation: musicP 5s linear infinite;
+            -moz-animation: musicP 5s linear infinite;
+            -o-animation: musicP 5s linear infinite;
+            -ms-animation: musicP 5s linear infinite;
+            animation: musicP 5s linear infinite;
+        }
+    </style>
+    <!--第一个页面的样式-->
+    <style>
+        .first-body{
+            height: 100%;
+            width: 100%;
+            background-color:#cdc1b2;
+            /*background-image:url(https://os.alipayobjects.com/rmsportal/aYyBTgkEYtqQFlK.jpg);*/
+            background-image:url(img/firstPageBack.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center;
+            overflow: hidden;
+            position: relative;
+        }
+        .body-inner{
+            height: 100%;
+            padding:8%;
+            overflow: hidden;
+        }
+        /********logo样式start***需要写适配************************/
+        .logo-container{
+            margin-top: 8%;
+        }
+        .logoImgBox{
+            width:52%;
+            margin:0 auto;
+        }
+        .logoImgBox img{
+            max-width: 100%;
+        }
+        .logoFont img{
+            max-width:90px;
+            /*height:47px;*/
+            margin-top: 7px;
+        }
+        .logoImg img{
+            max-width:40px;
+            /*height:40px;*/
+            vertical-align: middle;
+        }
+        .logoImg h6{
+            margin-top:5px;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        /********logo样式end***************************/
+
+        /*******招聘文案start***********/
+        .recruitDocsTitImg img{
+            width:100%;
+            /*height:123px;//写适配*/
+        }
+        .recruitDocsTit-container{
+            /*百分比按父元素的宽度计算*/
+            margin-top:23%;
+        }
+        /*****招聘文案End*******/
+
+        /*******招聘图片start***********/
+        .recruitPic img{
+            width:85%;
+        }
+        .recruitPic{
+            text-align: right;
+        }
+        .recruitPic-container{
+            /*百分比按父元素的宽度计算*/
+            margin-top:7%;
+        }
+        /*****招聘图片End*******/
+
+        /*****滑动图标start*********/
+        .slideIcon-container{
+            position: absolute;
+            left:50%;
+            width:8%;
+            margin-left:-4%;
+            bottom:15px;
+        }
+        .slideIcon-container img{
+            max-width: 100%;
+        }
+        /*****滑动图标end*********/
+
+        /*****iphone4以下********************/
+        @media only screen and (max-device-width: 320px) and (max-device-height: 567px){
+            .logo-container{
+                margin-top: 4%;
+            }
+            .recruitDocsTit-container{
+                /*百分比按父元素的宽度计算*/
+                margin-top:18%;
+            }
+            .recruitPic-container{
+                /*百分比按父元素的宽度计算*/
+                margin-top:5%;
+            }
+        /*宽屏ipad*/
+        @media only screen and (min-device-width: 750px) and (min-device-height: 1000px) {
+            .logo-container{
+                margin-top: 3%;
+            }
+            .recruitDocsTit-container{
+                /*百分比按父元素的宽度计算*/
+                margin-top:7%;
+            }
+            .recruitPic-container{
+                /*百分比按父元素的宽度计算*/
+                margin-top:3%;
+            }
+        }
+        @media only screen and (min-device-width: 800px) and (min-device-height: 1000px) {
+            .logo-container{
+                margin-top: 5%;
+            }
+            .recruitDocsTit-container{
+                /*百分比按父元素的宽度计算*/
+                margin-top:10%;
+            }
+            .recruitPic-container{
+                /*百分比按父元素的宽度计算*/
+                margin-top:5%;
+            }
+        }
+    </style>
+    <!--第二个页面的样式-->
+    <style>
+        .second-body{
+            height: 100%;
+            width: 100%;
+            background-color:#cdc1b2;
+            /*background-image:url(https://os.alipayobjects.com/rmsportal/aYyBTgkEYtqQFlK.jpg);*/
+            background-image:url(img/secPage/secBackground.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center;
+            overflow: hidden;
+            position: relative;
+        }
+        .body-inner{
+            height: 100%;
+            padding:8%;
+            overflow: hidden;
+        }
+
+        /****公式文案介绍start********/
+        .comIntro-title{
+            margin-top: 16px;
+            margin-bottom: 17px;
+            line-height: 1;
+            font-size: 2.4rem;/*写适配*/
+            text-align: center;
+            font-style: italic;
+        }
+        .comIntrro-desc{
+            width:100%;
+            padding-left:5px;
+            text-align: left;
+            font-size: 1.2rem;/*写适配*/
+            line-height: 1.8;
+        }
+        /****公式文案介绍end********/
+
+        /*我们的理念start*/
+        .idealBox{
+            width:60%;
+            margin:0 auto;
+        }
+        .idealBox img{
+            max-width: 100%;
+        }
+        /*我们的理念end*/
+
+        /*****滑动图标start*********/
+        .slideIcon-container{
+            position: absolute;
+            left:50%;
+            width:8%;
+            margin-left:-4%;
+            bottom:2%;
+        }
+        .slideIcon-container img{
+            max-width: 100%;
+        }
+        /*****滑动图标end*********/
+
+        /*****iphone4********************/
+        @media only screen and (max-device-width: 321px){
+            .comIntro-title{
+                margin-top: 5px;
+                margin-bottom: 5px;
+                font-size: 1.8rem;/*写适配*/
+            }
+            .comIntrro-desc{
+                padding-left:7px;
+                padding-right: 2px;
+                font-size: 1rem;/*写适配*/
+                line-height: 1.5;
+            }
+            .idealBox{
+                width:55%;
+            }
+        }
+        /*****iphoone5********************/
+        @media only screen and (max-device-width: 321px) and (min-device-height: 481px){
+            .comIntro-title{
+                margin-top: 12px;
+                margin-bottom: 13px;
+            }
+            .comIntrro-desc{
+                line-height: 1.7;
+            }
+            .idealBox{
+                width:60%;
+            }
+        }
+
+        /********iphone6 plus**************/
+        @media only screen and (min-device-width: 414px) and (max-device-width:600px ) and (min-device-height: 736px){
+            .comIntro-title{
+                margin-top: 21px;
+                margin-bottom: 15px;
+            }
+            .comIntrro-desc{
+                /*font-size: 1.5rem;*/
+                line-height: 1.8;
+            }
+            .idealBox{
+                width:60%;
+            }
+        }
+        @media only screen and (min-device-width: 600px) and (max-device-width: 768px){
+            .comIntro-title{
+                margin-top: 21px;
+                margin-bottom: 15px;
+            }
+            .comIntrro-desc{
+                /*font-size: 2.0rem;*/
+                line-height: 1.8;
+            }
+            .idealBox{
+                width:60%;
+            }
+        }
+        @media only screen and (min-device-width: 768px) and (min-device-height: 1025px){
+            .comIntro-title{
+                margin-top: 21px;
+                margin-bottom: 15px;
+                font-size: 4.6rem;
+            }
+            .comIntrro-desc{
+                font-size: 2.6rem;
+                line-height: 1.8;
+            }
+            .idealBox{
+                width:68%;
+            }
+        }
+    </style>
+    <!--第三个页面的样式-->
+    <style>
+        .third-body{
+            height: 100%;
+            width: 100%;
+            background-color:#cdc1b2;
+            background-image:url(img/thirdPage/thirdBackground.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center;
+            overflow: hidden;
+            position: relative;
+        }
+        .body-inner{
+            height: 100%;
+            padding:8%;
+            overflow: hidden;
+        }
+
+        .thirPage-title{
+            margin-top: 15px;/*写适配*/
+            margin-bottom: 13%;/*写适配*/
+            text-align: center;
+            line-height: 1;
+            font-size: 2.4rem;
+            font-style: italic;
+        }
+        .threeImg-container{
+            width:95%;
+            margin:0 auto;
+        }
+        .threeImgBox{
+            width:100%;
+        }
+        .threeImg-list{
+            padding:10% 0;/*写适配*/
+            /*position:relative;*/
+            /*bottom:-1000px;*/
+            opacity: 0;
+        }
+        .threeImg-list img{
+            max-width: 100%;
+        }
+        /****动画相关样式********/
+        .J_nowFutureAni{
+            /*bottom:0px;*/
+            opacity: 1;
+            webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            -ms-transition: all .3s ease;
+            transition: all .3s ease;
+        }
+
+        /*****滑动图标start*********/
+        .slideIcon-container{
+            position: absolute;
+            left:50%;
+            width:8%;
+            margin-left:-4%;
+            bottom:2%;
+        }
+        .slideIcon-container img{
+            max-width: 100%;
+        }
+        /*****滑动图标end*********/
+
+        /*****iphone4********************/
+        @media only screen and (max-device-width: 321px) and (max-device-height:567px){
+            .threeImg-list{
+                padding:7% 0;
+            }
+            .thirPage-title{
+                margin-bottom: 5px;
+            }
+        }
+        /*****iphoone5********************/
+        @media only screen and (max-device-width: 321px) and (min-device-height: 481px){
+
+        }
+
+        /********iphone6 plus**************/
+        @media only screen and (min-device-width: 414px) and (max-device-width:600px ) and (min-device-height: 736px){
+
+        }
+        @media only screen and (min-device-width: 600px) and (max-device-width: 768px){
+
+        }
+        @media only screen and (min-device-width: 768px) and (min-device-height: 1025px){
+
+        }
+    </style>
+    <!--第四个页面的样式-->
+    <style>
+        .fourth-body{
+            height: 100%;
+            width: 100%;
+            background-color:#cdc1b2;
+            background-image:url(img/fourthPage/fourthBackground.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center;
+            overflow: hidden;
+            position: relative;
+        }
+        .body-inner{
+            height: 100%;
+            padding:8%;
+            overflow: hidden;
+        }
+
+        .fourthPage-title{
+            margin-top:25px;
+            margin-bottom: 26px;
+            text-align: center;
+            line-height: 1;
+            font-size: 2.4rem;/*写适配*/
+            font-style: italic;
+        }
+        .fourthPage-desc{
+            width:100%;
+            padding-left:11px;
+            padding-right: 0px;
+            text-align: left;
+            font-size: 1.4rem;/*写适配*/
+            line-height: 1.8;
+        }
+
+        /******中间图片start*********/
+        .fourthPageImgBox{
+            width:95%;
+            margin:0 auto;
+        }
+        .fourthPageImgBox img{
+            max-width: 100%;
+        }
+        /******中间图片end*********/
+
+        /******种植Icon start*********/
+
+        .plantationBox{
+            /*width:48px;*/
+            width:12%;
+            margin-top:17px;
+            margin-left:18%;
+        }
+        .plantationBox img{
+            max-width: 100%;
+            position:relative;
+            top:-900px;
+            /*top:0px;*/
+            /*animation: drop .8s ease;*/
+            /*-webkit-animation:drop .8s ease;*/
+            /*-ms-animation:drop .8s ease;*/
+            /*-o-animation: drop .8s ease;*/
+            /*-moz-animation: drop .8s ease;*/
+        }
+        .J_animaPlant{
+            top:0!important;
+            webkit-transition: top .8s ease;
+            -moz-transition: top .8s ease;
+            -o-transition: top .8s ease;
+            -ms-transition: top .8s ease;
+            transition: top .8s ease;
+        }
+        @keyframes drop {
+            from { top: -2000px; }
+            to {top:0px; }
+        }
+        @-webkit-keyframes drop {
+            from { top: -2000px; }
+            to {top:0px; }
+        }
+        @-ms-keyframes drop {
+            from { top: -2000px; }
+            to {top:0px; }
+        }
+        @-o-keyframes drop {
+            from { top: -2000px; }
+            to {top:0px; }
+        }
+        @-moz-keyframes drop {
+            from { top: -2000px; }
+            to {top:0px; }
+        }
+        /******种植Icon end*********/
+
+
+        /*****滑动图标start*********/
+        .slideIcon-container{
+            position: absolute;
+            left:50%;
+            width:8%;
+            margin-left:-4%;
+            bottom:15px;
+        }
+        .slideIcon-container img{
+            max-width: 100%;
+        }
+        /*****滑动图标end*********/
+
+        /*****iphone4********************/
+        @media only screen and (max-device-width: 321px) and (max-device-height:567px){
+            .plantationBox{
+                margin-top:-20px;
+            }
+            .fourthPage-title{
+                margin-top:10px;
+                margin-bottom:10px;
+            }
+            .fourthPage-desc{
+                font-size:1rem;
+            }
+        }
+        /*****iphoone5********************/
+        @media only screen and (max-device-width: 321px) and (min-device-height: 481px){
+
+        }
+
+        /********iphone6 plus**************/
+        @media only screen and (min-device-width: 414px) and (max-device-width:600px ) and (min-device-height: 736px){
+
+        }
+        @media only screen and (min-device-width: 600px) and (max-device-width: 768px){
+
+        }
+        @media only screen and (min-device-width: 768px) and (min-device-height: 1025px){
+
+        }
+    </style>
+    <!--第五个页面的样式-->
+    <style>
+        .fifth-body{
+            height: 100%;
+            width: 100%;
+            background-color:#cdc1b2;
+            background-image:url(img/fifthPage/fifthBackground.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center;
+            overflow: hidden;
+            position: relative;
+        }
+        .body-inner{
+            height: 100%;
+            padding:8%;
+            overflow: hidden;
+        }
+
+        .fifthPage-title{
+            margin-top: 15px;/*写适配*/
+            margin-bottom: 10%;/*写适配*/
+            text-align: center;
+            line-height: 1;
+            font-size: 2.4rem;
+            font-style: italic;
+        }
+
+        .fifthPageImg-container{
+            width:95%;
+            margin:0 auto;
+        }
+        .fifthPageBox{
+            width:100%;
+        }
+        .fifthPageBox img{
+            max-width: 100%;
+        }
+
+        /*****内容描述start*********/
+        .fifthIntro-container{
+            margin-top:0px;
+        }
+        .fifth-body .description-list{
+            margin:15px 0;
+        }
+        .fifth-body .description-list>div{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .description-icon{
+            width:22%;
+        }
+        .description-icon img{
+            max-width: 100%;
+            vertical-align: middle;
+        }
+        .fifth-body .descript-content{
+            width:76%;
+            font-size: 1.4rem;
+            line-height: 1.5;
+            padding-left:10px;
+            padding-right:0;
+        }
+        .descript-content-title{
+            color:#7e2720;
+        }
+        /*****内容描述end*********/
+
+
+        /*****滑动图标start*********/
+        .slideIcon-container{
+            position: absolute;
+            left:50%;
+            width:8%;
+            margin-left:-4%;
+            bottom:15px;
+        }
+        .slideIcon-container img{
+            max-width: 100%;
+        }
+        /*****滑动图标end*********/
+
+        /*****iphone4********************/
+        @media only screen and (max-device-width: 321px) and (max-device-height:567px){
+            .fifthPage-title{
+                margin-top:10px;
+                margin-bottom:10px;
+            }
+            .fifthPageImg-container{
+                width:86%;
+            }
+            .fifth-body .description-list{
+                margin:0;
+            }
+            .fifthIntro-container{
+                margin-top:5px;
+            }
+            .fifth-body .descript-content{
+                font-size: 1.2rem;
+            }
+        }
+        /*****iphoone5********************/
+        @media only screen and (max-device-width: 321px) and (min-device-height: 481px){
+            .fifthIntro-container{
+                margin-top: -10px;
+            }
+            .fifth-body .description-list{
+                margin:10px 0;
+            }
+            .fifth-body .descript-content{
+                line-height: 1.5;
+                padding-left:5px;
+                padding-right: 5px;
+            }
+            .fifthPage-title{
+                margin-top:5px;
+                margin-bottom:10px;
+            }
+
+        }
+
+        /********iphone6 plus**************/
+        @media only screen and (min-device-width: 414px) and (max-device-width:600px ) and (min-device-height: 736px){
+
+        }
+        @media only screen and (min-device-width: 600px) and (max-device-width: 768px){
+
+        }
+        @media only screen and (min-device-width: 768px) and (min-device-height: 1025px){
+
+        }
+    </style>
+    <!--第六个页面的样式-->
+    <style>
+        .sixth-body{
+            height: 100%;
+            width: 100%;
+            background-color:#cdc1b2;
+            background-image:url(img/sixthPage/sixPageBackground.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center;
+            overflow: hidden;
+            position: relative;
+        }
+        .body-inner{
+            height: 100%;
+            padding:8%;
+            overflow: hidden;
+        }
+
+        .sixthPage-title{
+            margin-top: 15px;/*写适配*/
+            margin-bottom: 10%;/*写适配*/
+            text-align: center;
+            line-height: 1;
+            font-size: 2.4rem;
+            font-style: italic;
+        }
+
+        .sixthPageImg-container{
+            width:95%;
+            margin:0 auto;
+            position:relative;
+        }
+        .sixthPageBox{
+            width:100%;
+            position:relative;
+            z-index: 99;
+        }
+        .sixthPageBox img{
+            max-width: 100%;
+        }
+        .sixthPageShadow-box{
+            position:absolute;
+            top:-21px;
+        }
+        .sixthPageShadow-box img{
+            max-width: 100%;
+            opacity: 0;
+        }
+        .J_mentalAnimation{
+            opacity: 1!important;
+            webkit-transition: all .6s ease;
+            -moz-transition: all .6s ease;
+            -o-transition: all .6s ease;
+            -ms-transition: all .6s ease;
+            transition: all .6s ease;
+
+        }
+        /*****内容描述start*********/
+        .sixthIntro-container{
+            /*margin-top:10%;*/
+        }
+        .sixth-body .description-list{
+            margin:5% 0;
+        }
+        .sixth-body .description-list>div{
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .description-icon{
+            width:22%;
+        }
+        .description-icon img{
+            max-width: 100%;
+            vertical-align: middle;
+        }
+        .sixth-body .descript-content{
+            width:76%;
+            font-size: 1.4rem;
+            line-height: 1.8;
+            padding-left:13px;
+            padding-right:13px;
+            color:#7e2720;
+        }
+        /*****内容描述end*********/
+
+
+        /*****滑动图标start*********/
+        .slideIcon-container{
+            position: absolute;
+            left:50%;
+            width:8%;
+            margin-left:-4%;
+            bottom:15px;
+        }
+        .slideIcon-container img{
+            max-width: 100%;
+        }
+        /*****滑动图标end*********/
+
+        /*****iphone4********************/
+        @media only screen and (max-device-width: 321px) and (max-device-height:567px){
+            .sixthPage-title{
+                margin-top:5px;
+                margin-bottom:5px;
+            }
+            .sixthPageImg-container{
+                width:86%;
+            }
+            .sixth-body .description-list{
+                margin:0;
+            }
+            .sixth-body .descript-content{
+                font-size: 1rem;
+            }
+            .sixthIntro-container{
+                margin-top:-10px;
+            }
+        }
+        /*****iphoone5********************/
+        @media only screen and (max-device-width: 321px) and (min-device-height: 481px){
+
+        }
+
+        /********iphone6 plus**************/
+        @media only screen and (min-device-width: 414px) and (max-device-width:600px ) and (min-device-height: 736px){
+
+        }
+        @media only screen and (min-device-width: 600px) and (max-device-width: 768px){
+
+        }
+        @media only screen and (min-device-width: 768px) and (min-device-height: 1025px){
+
+        }
+    </style>
+    <!--第七个页面的样式-->
+    <style>
+        .seventh-body{
+            height: 100%;
+            width: 100%;
+            background-color:#cdc1b2;
+            background-image:url(img/fifthPage/fifthBackground.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center;
+            overflow: hidden;
+            position: relative;
+        }
+        .body-inner{
+            height: 100%;
+            padding:8%;
+            overflow: hidden;
+        }
+
+        .seventhPage-title{
+            margin-top: 25px;/*写适配*/
+            margin-bottom: 13%;/*写适配*/
+            text-align: center;
+            line-height: 1;
+            font-size: 2.4rem;
+            font-style: italic;
+        }
+
+        /*****内容描述start*********/
+        .seventhIntro-container{
+            margin-top:10%;
+        }
+        .seventh-body .description-list{
+            margin:10% 0;
+        }
+        .seventh-body .description-title-box{
+            position:relative;
+        }
+        .icon-box,.icon-title{
+            display: inline-block;
+            vertical-align: bottom;
+        }
+        .icon-box{
+            width:11%;
+            margin-left:10px;
+            position:relative;
+            z-index: 88;
+        }
+        .icon-img img{
+            max-width:100%;
+        }
+        .icon-shadow-box{
+            position:absolute;
+            top:10px;
+            left:-10px;
+            width:40%;
+            animation: move .8s ease;
+            -webkit-animation:move .8s ease;
+            -ms-animation:move .8s ease;
+            -o-animation: move .8s ease;
+            -moz-animation: move .8s ease;
+        }
+        @keyframes move {
+            from { left: -1000px; }
+            to {left:0px; }
+        }
+        @-webkit-keyframes move {
+            from { left: -1000px; }
+            to {left:0px; }
+        }
+        @-ms-keyframes move {
+            from { left: -1000px; }
+            to {left:0px; }
+        }
+        @-o-keyframes move {
+            from { left: -1000px; }
+            to {left:0px; }
+        }
+        @-moz-keyframes move {
+            from { left: -1000px; }
+            to {left:0px; }
+        }
+        .icon-shadow-box img{
+            max-width: 100%;
+        }
+        .seventh-body .descript-content{
+            font-size: 1.2rem;
+            line-height: 1.8;
+            padding-left:10px;
+            padding-right:10px;
+            margin-top:8px;
+        }
+        .icon-title{
+            font-size: 1.5rem;
+            color:#7e2720;
+            font-weight: 400;
+            position:relative;
+        }
+        /*****内容描述end*********/
+
+
+        /*****滑动图标start*********/
+        .slideIcon-container{
+            position: absolute;
+            left:50%;
+            width:8%;
+            margin-left:-4%;
+            bottom:15px;
+        }
+        .slideIcon-container img{
+            max-width: 100%;
+        }
+        /*****滑动图标end*********/
+
+        /*****iphone4********************/
+        @media only screen and (max-device-width: 321px) and (max-device-height:567px){
+            .seventh-body .description-list{
+                margin:6% 0;
+            }
+            .seventhPage-title{
+                margin-top:5px;
+                margin-bottom:10px;
+            }
+            .seventh-body .descript-content{
+                font-size: 1rem;
+            }
+        }
+        /*****iphoone5********************/
+        @media only screen and (max-device-width: 321px) and (min-device-height: 481px){
+            .seventhPage-title{
+                margin-top:10px;
+                margin-bottom:15px;
+            }
+
+        }
+
+        /********iphone6 plus**************/
+        @media only screen and (min-device-width: 414px) and (max-device-width:600px ) and (min-device-height: 736px){
+
+        }
+        @media only screen and (min-device-width: 600px) and (max-device-width: 768px){
+
+        }
+        @media only screen and (min-device-width: 768px) and (min-device-height: 1025px){
+
+        }
+    </style>
+    <!--第八个页面的样式-->
+    <style>
+        .eighth-body{
+            height: 100%;
+            width: 100%;
+            background-color:#cdc1b2;
+            background-image:url(img/eighthPage/eighthPageBackground.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center;
+            overflow: hidden;
+            position: relative;
+        }
+        .body-inner{
+            height: 100%;
+            padding:8%;
+            overflow: hidden;
+        }
+
+        .eighthPage-title{
+            margin-top: 25px;/*写适配*/
+            margin-bottom: 13%;/*写适配*/
+            text-align: center;
+            line-height: 1;
+            font-size: 2.4rem;
+            font-style: italic;
+        }
+
+        /*****内容描述start*********/
+        .eighthIntro-container{
+            margin-top:10%;
+        }
+        .eighth-body .description-list{
+            margin:5% 0;
+        }
+        .eighth-body .description-title-box{
+            position:relative;
+        }
+        .icon-box,.icon-title{
+            display: inline-block;
+            vertical-align: bottom;
+        }
+        .icon-box{
+            width:11%;
+            margin-left:10px;
+            position:relative;
+            z-index: 88;
+        }
+        .icon-img img{
+            max-width:100%;
+        }
+        .icon-shadow-box{
+            position:absolute;
+            top:10px;
+            left:-1000px;
+            width:40%;
+            /*animation: move .8s ease;*/
+            /*-webkit-animation:move .8s ease;*/
+            /*-ms-animation:move .8s ease;*/
+            /*-o-animation: move .8s ease;*/
+            /*-moz-animation: move .8s ease;*/
+        }
+        .J_aniShadow{
+            left:-10px;
+            webkit-transition: left .3s ease;
+            -moz-transition: left .3s ease;
+            -o-transition: left .3s ease;
+            -ms-transition: left .3s ease;
+            transition: left .3s ease;
+        }
+        @keyframes move {
+            from { left: -1000px; }
+            to {left:0px; }
+        }
+        @-webkit-keyframes move {
+            from { left: -1000px; }
+            to {left:0px; }
+        }
+        @-ms-keyframes move {
+            from { left: -1000px; }
+            to {left:0px; }
+        }
+        @-o-keyframes move {
+            from { left: -1000px; }
+            to {left:0px; }
+        }
+        @-moz-keyframes move {
+            from { left: -1000px; }
+            to {left:0px; }
+        }
+        .icon-shadow-box img{
+            max-width: 100%;
+        }
+        .eighth-body .descript-content{
+            font-size: 1.2rem;
+            line-height: 1.8;
+            padding-left:10px;
+            padding-right:10px;
+            margin-top:8px;
+        }
+        .icon-title{
+            font-size: 1.5rem;
+            color:#7e2720;
+            font-weight: 400;
+            position:relative;
+        }
+        /*****内容描述end*********/
+
+
+        /*****滑动图标start*********/
+        .slideIcon-container{
+            position: absolute;
+            left:50%;
+            width:8%;
+            margin-left:-4%;
+            bottom:15px;
+        }
+        .slideIcon-container img{
+            max-width: 100%;
+        }
+        /*****滑动图标end*********/
+
+        /*****iphone4********************/
+        @media only screen and (max-device-width: 321px) and (max-device-height:567px){
+            .eighthPage-title{
+                margin-top:5px;
+                margin-bottom:2px;
+            }
+            .eighth-body .description-list{
+                margin:2% 0;
+            }
+            .eighth-body .descript-content{
+                font-size: 1rem;
+            }
+        }
+        /*****iphoone5********************/
+        @media only screen and (max-device-width: 321px) and (min-device-height: 481px){
+            .eighthPage-title{
+                font-size: 2rem;
+                margin-top:10px;
+                margin-bottom:15px;
+            }
+            .eighth-body .description-list{
+                margin:5px 0;
+            }
+
+        }
+
+        /********iphone6 plus**************/
+        @media only screen and (min-device-width: 414px) and (max-device-width:600px ) and (min-device-height: 736px){
+
+        }
+        @media only screen and (min-device-width: 600px) and (max-device-width: 768px){
+
+        }
+        @media only screen and (min-device-width: 768px) and (min-device-height: 1025px){
+
+        }
+    </style>
+    <!--第九个页面的样式-->
+    <style>
+        .ninth-body{
+            height: 100%;
+            width: 100%;
+            background-color:#cdc1b2;
+            background-image:url(img/fifthPage/fifthBackground.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center;
+            overflow: hidden;
+            position: relative;
+        }
+        .body-inner{
+            height: 100%;
+            padding:8%;
+            overflow: hidden;
+        }
+
+        .ninthPage-title{
+            margin-top: 10px;/*写适配*/
+            /*margin-bottom: 10%;/!*写适配*!/*/
+            margin-bottom:15px;
+            text-align: center;
+            line-height: 1;
+            font-size: 2.4rem;
+            font-style: italic;
+        }
+        .ninthTitle-description{
+            font-size: 1.2rem;
+            line-height: 1.8;
+            padding:0 10px;
+        }
+        /*****表单start*********/
+        .ninthIntro-container{
+            margin-top:5%;
+        }
+        .ninthIntroBox{
+            padding:0 10px;
+        }
+        .ninthIntroBox .description-list{
+            margin:8% 0;
+            padding:10px;
+            border:1px solid #333;
+            border-radius: 8px;
+            -ms-border-radius:8px;
+            -webkit-border-radius:8px;
+            -o-border-radius:8px;
+            -moz-border-radius:8px;
+        }
+        .ninthIntroBox .description-list input,.ninthIntroBox .description-list select{
+            background: transparent;
+            border: none;
+            width: 100%;
+            color:#999;
+            outline:none;
+            height:30px;
+            /*padding:7px;*/
+
+        }
+        :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+            color: #666;
+        }
+        ::-moz-placeholder { /* Mozilla Firefox 19+ */
+            color: #666;
+        }
+        input:-ms-input-placeholder,
+        textarea:-ms-input-placeholder {
+            color: #666;
+        }
+        input::-webkit-input-placeholder,
+        textarea::-webkit-input-placeholder {
+            color: #666;
+        }
+        textarea,select,input{-webkit-appearance: none; -moz-appearance: none; -o-appearance: none; appearance: none;}
+        /*****表单end*********/
+
+
+        /*****滑动图标start*********/
+        .slideIcon-container{
+            position: absolute;
+            left:50%;
+            width:8%;
+            margin-left:-4%;
+            bottom:15px;
+        }
+        .slideIcon-container img{
+            max-width: 100%;
+        }
+
+
+        .ninth-slideIcon{
+            width:8%;
+            margin: 0 auto;
+        }
+        .ninth-slideIcon img{
+            max-width: 100%;
+        }
+
+        /*****滑动图标end*********/
+
+        /***********页面浮层样式start*******************/
+        .float-mask{
+            width:100%;
+            height:100%;
+            position: absolute;
+            top:0;
+            left:0;
+            z-index: 99;
+            background:#000;
+            opacity: .2;
+        }
+        .float-content-box{
+            width:80%;
+            height:100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -o-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+            z-index: 999;
+        }
+        .float-container{
+            width:100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -o-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+        }
+        .float-close{
+            position:absolute;
+            top:-8px;
+            right:-4px;
+            cursor: pointer;
+            width:20px;
+            height:20px;
+            line-height: 20px;
+            text-align: center;
+            background-color: #fff;
+            color:#000;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -o-border-radius: 50%;
+            opacity: .55;
+            z-index: 99;
+        }
+        .float-result{
+            width:100%;
+
+        }
+        .float-result-inner{
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -ms-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -o-box-sizing: border-box;
+            display: inline-block;
+            width:100%;
+            text-align: center;
+            color:#fff;
+            padding:20px 15px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -o-border-radius: 10px;
+            opacity: .75;
+        }
+        /***********页面浮层样式end*******************/
+
+
+        /*****iphone4********************/
+        @media only screen and (max-device-width: 321px) and (max-device-height:567px){
+            .ninthTitle-description{
+                font-size:1rem;
+            }
+            .ninthPage-title{
+                margin-top:5px;
+                margin-bottom:15px;
+            }
+            .ninthIntro-container{
+                margin-top:15px;
+            }
+            .ninthIntroBox .description-list{
+                margin:5% 0;
+                padding:4px;
+            }
+        }
+        /*****iphoone5********************/
+        @media only screen and (max-device-width: 321px) and (min-device-height: 481px){
+            .ninthIntroBox .description-list{
+                margin:10px 0;
+                padding:5px;
+            }
+
+        }
+
+        /********iphone6 plus**************/
+        @media only screen and (min-device-width: 414px) and (max-device-width:600px ) and (min-device-height: 736px){
+
+        }
+        @media only screen and (min-device-width: 600px) and (max-device-width: 768px){
+
+        }
+        @media only screen and (min-device-width: 768px) and (min-device-height: 1025px){
+
+        }
+    </style>
+    <!--第十个页面的样式-->
+    <style>
+        .tenth-body{
+            height: 100%;
+            width: 100%;
+            background-color:#cdc1b2;
+            background-image:url(img/tenthPage/tenthPageBackground.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center;
+            overflow: hidden;
+            position: relative;
+            z-index: 99;
+        }
+        .body-inner{
+            height: 100%;
+            padding:8%;
+            overflow: hidden;
+        }
+
+        .tenthPageImg-container{
+            position:relative;
+            margin-top:25%;
+        }
+        .tenthPageBox{
+            width:92%;
+            margin:0 auto;
+            position: relative;
+            z-index: 99;
+        }
+        .tenthPageBox img{
+            max-width: 100%;
+        }
+        .tenthPageShadow-box{
+            width:50%;
+            margin:0 auto;
+            position:absolute;
+            left: 67%;
+            top: 6px;
+            margin-left: -25%;
+        }
+        .tenthPageShadow-box img{
+            max-width: 100%;
+            opacity: 0;
+            /***这个图片的动画和“我们希望你页面的动画共用的class”***/
+        }
+        /*****滑动图标start*********/
+        .slideIcon-container{
+            position: absolute;
+            left:50%;
+            width:8%;
+            margin-left:-4%;
+            bottom:15px;
+        }
+        .slideIcon-container img{
+            max-width: 100%;
+        }
+        /*****滑动图标end*********/
+
+        /*****iphone4********************/
+        @media only screen and (max-device-width: 321px) {
+
+        }
+        /*****iphoone5********************/
+        @media only screen and (max-device-width: 321px) and (min-device-height: 481px){
+
+        }
+
+        /********iphone6 plus**************/
+        @media only screen and (min-device-width: 414px) and (max-device-width:600px ) and (min-device-height: 736px){
+
+        }
+        @media only screen and (min-device-width: 600px) and (max-device-width: 768px){
+
+        }
+        @media only screen and (min-device-width: 768px) and (min-device-height: 1025px){
+
+        }
+    </style>
+</head>
+<body>
+    <audio style="display:none;  height: 0"  id="bg-music" preload="auto" src="music.mp3" loop="loop"></audio>
+
+    <!--微信分享默认图片，必须大于300px;-->
+    <div id="thumbnail-pic" style="display:none;">
+        <img src="img/wxLogo.png" alt=""/>
+    </div>
+
+    <!--背景音乐播放暂停动画-->
+    <div style="position: absolute; right:11px;top:12px;z-index: 88;width:40px;height: 40px;" class="J_music-anima" id="audioPlay">
+        <img src="img/music.png" alt="" style="max-width: 100%;"/>
+    </div>
+
+    <div class="swiper-container " id="swiper">
+        <div class="swiper-wrapper">
+            <!--第一个页面start-->
+            <div class="swiper-slide">
+                <div class="first-body">
+                    <div class="body-inner">
+                        <div class="logo-container fn-clear">
+                            <!--<div class="logoFont">-->
+                            <!--<img src="img/wxLogo.jpg" alt=""/>-->
+                            <!--</div>-->
+                            <!--<div class="logoImg">-->
+                            <!--&lt;!&ndash;<img src="img/firstPage/logoImg.png" alt=""/>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<h6>浙江省南方林药经济研究院</h6>&ndash;&gt;-->
+
+                            <!--<img src="img/firstPage/logoImgfont.png" alt="" class="logoImgfont"/>-->
+                            <!--</div>-->
+                            <div class="logoImgBox">
+                                <img src="img/firstPage/logo.png" alt=""/>
+                            </div>
+                        </div>
+
+                        <div class="recruitDocsTit-container">
+                            <div class="recruitDocsTitImg">
+                                <img src="img/firstPage/recruitDocsTit.png" alt=""/>
+                            </div>
+                        </div>
+
+                        <div class="recruitPic-container">
+                            <div class="recruitPic">
+                                <img src="img/firstPage/firstPagePic.png" alt=""/>
+                            </div>
+                        </div>
+
+                        <div class="slideIcon-container">
+                            <img src="img/slide.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <!--第一个页面end-->
+            <!--第二个页面start-->
+            <div class="swiper-slide">
+                <div class="second-body">
+                    <div class="body-inner">
+                        <div class="companyIntro-container">
+                            <h1 class="comIntro-title">我们是谁？</h1>
+                            <p class="comIntrro-desc">衢州市益年堂农林科技有限公司是一家专业从事名贵中药材种植、技术推广、产品开发的科技型企业。公司成立于2015年，目前是衢江区农业龙头企业，下属的康美中药材专业合作社是浙江省中药材产业协会理事单位、下属舒畅家庭农场是省级示范性家庭农场。我们在生态环境优越的衢江区湖南镇破石村建立了占地数百亩的中药材种植基地，主培品种包括白芨、藏红花、三叶青等。在市、区各级部门的引导和支持下，下属的浙江省南方林药经济研究院已在筹建，将进一步提升公司在中药材品种培育、技术、产品研发等方面的综合能力。我们热爱家乡衢州的热土，热爱中药材大健康事业，诚邀志同道合的您加入！</p>
+                        </div>
+
+                        <div class="ideal-container">
+                            <div class="idealBox">
+                                <img src="img/secPage/ideal.png" alt=""/>
+                            </div>
+                        </div>
+
+                        <div class="slideIcon-container">
+                            <img src="img/slide.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--第二个页面end-->
+            <!--第3个页面start-->
+            <div class="swiper-slide">
+                <div class="third-body">
+                    <div class="body-inner">
+                        <div class="thirPage-title-container">
+                            <h3 class="thirPage-title">我们的现在与未来</h3>
+                        </div>
+
+                        <div class="threeImg-container">
+                            <div class="threeImgBox">
+                                <div class="threeImg-list  J_threeImg" data-index="0">
+                                    <img src="img/thirdPage/list-03.png" alt=""/>
+                                </div>
+                                <div class="threeImg-list  J_threeImg" data-index="1">
+                                    <img src="img/thirdPage/list-02.png" alt=""/>
+                                </div>
+                                <div class="threeImg-list  J_threeImg" data-index="2">
+                                    <img src="img/thirdPage/list-01.png" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slideIcon-container">
+                            <img src="img/slide.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--第3个页面end-->
+            <!--第4个页面start-->
+            <div class="swiper-slide">
+                <div class="fourth-body">
+                    <div class="body-inner">
+                        <div class="fourthPage-title-container">
+                            <h3 class="fourthPage-title">我们在哪里工作？</h3>
+                            <p class="fourthPage-desc">我们的办公地点位于衢州市衢江区东迹大道（衢江区林业局内），我们的种植基地位于衢江区湖南镇破石村</p>
+                        </div>
+
+                        <div class="fourthPageImg-container">
+                            <div class="fourthPageImgBox">
+                                <img src="img/fourthPage/fourthPageImg.png" alt=""/>
+                            </div>
+                        </div>
+
+                        <div class="plantation-container">
+                            <div class="plantationBox">
+                                <img src="img/fourthPage/plant.png" alt="" class="J_plantationBox"/>
+                            </div>
+                        </div>
+
+                        <div class="slideIcon-container">
+                            <img src="img/slide.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--第4个页面end-->
+            <!--第5个页面start-->
+            <div class="swiper-slide">
+                <div class="fifth-body">
+                    <div class="body-inner">
+                        <div class="fifthPage-title-container">
+                            <h3 class="fifthPage-title">加入我们的几个理由</h3>
+                        </div>
+
+                        <div class="fifthPageImg-container">
+                            <div class="fifthPageBox">
+                                <img src="img/fifthPage/fifthImg.png" alt=""/>
+                            </div>
+                        </div>
+
+                        <div class="fifthIntro-container">
+                            <div class="fifthIntroBox">
+                                <div class="description-list">
+                                    <div class="description-icon">
+                                        <img src="img/fifthPage/fifPageIcon-01.png" alt=""/>
+                                    </div>
+                                    <div class="descript-content">
+                                        <span class="descript-content-title">朝阳的产业，</span>
+                                        <span>健康产业将进入2.0时代，中药材行业越来越受到国家的重视、国际的认可</span>
+                                    </div>
+                                </div>
+                                <div class="description-list">
+                                    <div class="description-icon">
+                                        <img src="img/fifthPage/fifPageIcon-02.png" alt=""/>
+                                    </div>
+                                    <div class="descript-content">
+                                        <span class="descript-content-title">人性化待遇，</span>
+                                        <span>薪资福利，五险一金、股权激励、工作餐贴等</span>
+                                    </div>
+                                </div>
+                                <div class="description-list">
+                                    <div class="description-icon">
+                                        <img src="img/fifthPage/fifPageIcon-03.png" alt=""/>
+                                    </div>
+                                    <div class="descript-content">
+                                        <span class="descript-content-title">广阔的职业空间，</span>
+                                        <span>公司处于创业期，天高任鸟飞、海阔凭鱼跃</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slideIcon-container">
+                            <img src="img/slide.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--第5个页面end-->
+            <!--第6个页面start-->
+            <div class="swiper-slide">
+                <div class="sixth-body">
+                    <div class="body-inner">
+                        <div class="sixthPage-title-container">
+                            <h3 class="sixthPage-title">我们希望你...</h3>
+                        </div>
+
+                        <div class="sixthPageImg-container">
+                            <div class="sixthPageBox">
+                                <img src="img/sixthPage/sixthPageImg.png" alt=""/>
+                            </div>
+                            <div class="sixthPageShadow-box">
+                                <img src="img/sixthPage/sixthPageImgShadow01.png" alt="" class="J_mental"/>
+                            </div>
+                        </div>
+
+                        <div class="sixthIntro-container">
+                            <div class="sixthIntroBox">
+                                <div class="description-list">
+                                    <div class="description-icon">
+                                        <img src="img/sixthPage/sixPageIcon-01.png" alt=""/>
+                                    </div>
+                                    <div class="descript-content">
+                                        <span>热爱健康产业、中药材事业</span>
+                                    </div>
+                                </div>
+                                <div class="description-list">
+                                    <div class="description-icon">
+                                        <img src="img/sixthPage/sixPageIcon-02.png" alt=""/>
+                                    </div>
+                                    <div class="descript-content">
+                                        <span>乐观向上，德才兼备</span>
+                                    </div>
+                                </div>
+                                <div class="description-list">
+                                    <div class="description-icon">
+                                        <img src="img/sixthPage/sixPageIcon-03.png" alt=""/>
+                                    </div>
+                                    <div class="descript-content">
+                                        <span>学习力、创造力、适应力、自驱力</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slideIcon-container">
+                            <img src="img/slide.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--第6个页面end-->
+            <!--第7个页面start-->
+            <div class="swiper-slide">
+                <div class="seventh-body">
+                    <div class="body-inner">
+                        <div class="seventhPage-title-container">
+                            <h3 class="seventhPage-title">找准你的事业新角色</h3>
+                        </div>
+
+                        <div class="seventhIntro-container">
+                            <div class="seventhIntroBox">
+                                <div class="description-list">
+                                    <div class="description-title-box">
+                                        <div class="icon-box">
+                                            <s class="icon-img"><img src="img/seventhPage/seventhIcon-01.png" alt=""/></s>
+                                        </div>
+                                        <div class="icon-shadow-box J_seventhIconSBox">
+                                            <img src="img/seventhPage/seventhIconShadow.png" alt=""/>
+                                        </div>
+                                        <h5 class="icon-title">业务经理（2名）</h5>
+                                    </div>
+                                    <p class="descript-content">
+                                        热爱销售工作，对中药材行业的有一定的了解，具有较好的沟通谈判能力；能够hold住客户和合作伙伴；内心强大，扛得住业绩
+                                    </p>
+                                </div>
+
+                                <div class="description-list">
+                                    <div class="description-title-box">
+                                        <div class="icon-box">
+                                            <s class="icon-img"><img src="img/seventhPage/seventhIcon-02.png" alt=""/></s>
+                                        </div>
+                                        <div class="icon-shadow-box J_seventhIconSBox">
+                                            <img src="img/seventhPage/seventhIconShadow.png" alt=""/>
+                                        </div>
+                                        <h5 class="icon-title">种植技术员（1名）</h5>
+                                    </div>
+                                    <p class="descript-content">
+                                        热爱中药材领域的技术工作，善于学习和钻研各种中药材种植技术；有相关专业学历和背景、以及实际技术工作经验者优先
+                                    </p>
+                                </div>
+
+                                <div class="description-list">
+                                    <div class="description-title-box">
+                                        <div class="icon-box">
+                                            <s class="icon-img"><img src="img/seventhPage/seventhIcon-03.png" alt=""/></s>
+                                        </div>
+                                        <div class="icon-shadow-box J_seventhIconSBox">
+                                            <img src="img/seventhPage/seventhIconShadow.png" alt=""/>
+                                        </div>
+                                        <h5 class="icon-title">基地生产管理员（夫妻一对）</h5>
+                                    </div>
+                                    <p class="descript-content">
+                                        年龄小于60岁、初中以上文化；吃苦耐劳、忠厚诚实、包食宿、年薪5万以上（两人）
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="slideIcon-container">
+                            <img src="img/slide.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--第7个页面end-->
+            <!--第8个页面start-->
+            <div class="swiper-slide">
+                <div class="eighth-body">
+                    <div class="body-inner">
+                        <div class="eighthPage-title-container">
+                            <h3 class="eighthPage-title">发现你职位生涯的新机会</h3>
+                        </div>
+
+                        <div class="eighthIntro-container">
+                            <div class="eighthIntroBox">
+                                <div class="description-list">
+                                    <div class="description-title-box">
+                                        <div class="icon-box">
+                                            <s class="icon-img"><img src="img/eighthPage/eighthIcon-01.png" alt=""/></s>
+                                        </div>
+                                        <div class="icon-shadow-box J_eighthIconSBox">
+                                            <img src="img/seventhPage/seventhIconShadow.png" alt=""/>
+                                        </div>
+                                        <h5 class="icon-title">电商运营（1名）</h5>
+                                    </div>
+                                    <p class="descript-content">
+                                        熟悉电商运营的各环节，熟悉国内主流电商平台，能够对成交量和用户满意度负责，有独立电商运营的实战经验和成功案例者优先
+                                    </p>
+                                </div>
+
+                                <div class="description-list">
+                                    <div class="description-title-box">
+                                        <div class="icon-box">
+                                            <s class="icon-img"><img src="img/eighthPage/eighthIcon-02.png" alt=""/></s>
+                                        </div>
+                                        <div class="icon-shadow-box J_eighthIconSBox">
+                                            <img src="img/seventhPage/seventhIconShadow.png" alt=""/>
+                                        </div>
+                                        <h5 class="icon-title">行政助理（1名）</h5>
+                                    </div>
+                                    <p class="descript-content">
+                                        有一定的文字功底和摄影技巧；能熟练使用各种办公软件、掌握一种图片处理技能；有相关工作经验，熟谙商务礼仪，品貌端正、谈吐举止佳者优先
+                                    </p>
+                                </div>
+
+                                <div class="description-list">
+                                    <div class="description-title-box">
+                                        <div class="icon-box">
+                                            <s class="icon-img"><img src="img/eighthPage/eighthIcon-03.png" alt=""/></s>
+                                        </div>
+                                        <div class="icon-shadow-box J_eighthIconSBox">
+                                            <img src="img/seventhPage/seventhIconShadow.png" alt=""/>
+                                        </div>
+                                        <h5 class="icon-title">财务专员（1名）</h5>
+                                    </div>
+                                    <p class="descript-content">
+                                        有专业的财务技能，持会计证上岗，能站在公司角度建立财务策略和制度；能熟练运用各种办公及财务软件
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="slideIcon-container">
+                            <img src="img/slide.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--第8个页面end-->
+            <!--第9个页面start-->
+            <div class="swiper-slide">
+                <div class="ninth-body">
+                    <div class="body-inner">
+                        <div class="ninthPage-title-container">
+                            <h3 class="ninthPage-title">如何联系我们</h3>
+                            <p class="ninthTitle-description">你可通过 <span style="color:#7e2720;">766317310@qq.com </span>投递简历，也可在下方填写一下资料，我们将有工作人员与你联系。或可致电 <span style="color:#7e2720;">18857008353</span> 了解招聘信息</p>
+                        </div>
+
+                        <div class="ninthIntro-container">
+                            <form class="ninthIntroBox" action="" method="post">
+                                <div class="description-list">
+                                    <select name="positionName">
+                                        <option value="0">请选择你有意向的职位</option>
+                                        <option value="1">业务经理（2名）</option>
+                                        <option value="2">种植技术员（1名）</option>
+                                        <option value="3">基地生产管理员（夫妻一对）</option>
+                                        <option value="4">电商运营（1名）</option>
+                                        <option value="5">行政助理（1名）</option>
+                                        <option value="6">财务专员（1名）</option>
+                                    </select>
+                                </div>
+                                <div class="description-list">
+                                    <input type="text" name="userName" value="" placeholder="请输入你的姓名"/>
+                                </div>
+                                <div class="description-list">
+                                    <input type="text" name="userTel" value="" placeholder="请输入你的手机号" maxlength="11"/>
+                                </div>
+                                <div class="description-list">
+                                    <input type="text" name="userNet" value="" placeholder="请输入你的微信号或QQ"/>
+                                </div>
+                                <div class="description-list" style="background:#7e2720;">
+                                    <input type="button" value="提交信息" style="color:#fff;" id="submitBtn"/>
+                                </div>
+                            </form>
+                            <!--<div class="ninth-slideIcon">-->
+                                <!--<img src="img/slide.png" alt=""/>-->
+                            <!--</div>-->
+                        </div>
+
+                        <div class="slideIcon-container">
+                            <img src="img/slide.png" alt=""/>
+                        </div>
+                        <!--浮层结构-->
+                        <div class="float-part">
+                            <!--签到结果的浮层-->
+                            <div class="sign-result-box J_floatListBox fn-hide">
+                                <div class="float-mask">
+                                </div>
+                                <div class="float-content-box">
+                                    <div class="float-container">
+                                        <div class="float-close J_floatClose fn-hide">X</div>
+                                        <div class=" J_floatCon float-result">
+                                            <!--<span class="float-result-inner" style="background-color: green;">提交成功</span>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!--第9个页面end-->
+            <!--第10个页面start-->
+            <div class="swiper-slide">
+                <div class="tenth-body">
+                    <div class="body-inner">
+
+
+                        <div class="tenthPageImg-container">
+                            <div class="tenthPageBox">
+                                <img src="img/tenthPage/tenthImg.png" alt=""/>
+                            </div>
+                            <div class="tenthPageShadow-box">
+                                <img src="img/tenthPage/tenthImgShadow.png" alt="" class="J_mental"/>
+                            </div>
+                        </div>
+
+                        <div class="slideIcon-container">
+                            <img src="img/slide.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--第10个页面end-->
+        </div>  
+    </div>
+</body>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script language="javascript" type="text/javascript">
+
+    var targetUrl = location.href.split('#')[0];
+    $.ajax({
+        url:"/activity/getpageurl.htm",
+        type:"get",
+        data:{'targetUrl':"http://121.40.133.139:8089/forward/home/home.htm"},
+        success: function(msg){
+            var object =JSON.parse(msg);
+            wx.config({
+                debug: false,//这里是开启测试，如果设置为true，则打开每个步骤，都会有提示，是否成功或者失败
+                appId: object.map.appid,
+                timestamp: object.map.timestamp,
+                nonceStr: object.map.nonce,
+                signature: object.map.sign,
+                jsApiList: [
+                    // 所有要调用的 API 都要加到这个列表中
+                    'onMenuShareTimeline',
+                    'onMenuShareAppMessage'
+
+                ]
+            });
+            wx.ready(function () {
+                //分享到朋友圈
+                wx.onMenuShareTimeline({
+                    title: '益年堂', // 分享标题
+                    link:object.map.url,
+                    imgUrl: '',
+                    success: function () {
+                        var shareuserid = '';
+                        var serviceAcitivityId='';
+                        var sourceuserid = '';
+                        var param = {'shareuserid':'','serviceAcitivityId':'','sourceuserid':''};
+                        param.shareuserid=shareuserid;
+                        param.serviceAcitivityId = serviceAcitivityId;
+                        param.sourceuserid =sourceuserid;
+
+                    },
+                    cancel: function () {
+                    }
+                });
+
+            });
+        }
+    });
+
+</script>
+<script>
+    // 音乐播放
+    function autoPlayMusic() {
+        // 自动播放音乐效果，解决浏览器或者APP自动播放问题
+        function musicInBrowserHandler() {
+            musicPlay(true);
+            document.body.removeEventListener('touchstart', musicInBrowserHandler);
+        }
+        document.body.addEventListener('touchstart', musicInBrowserHandler);
+
+        // 自动播放音乐效果，解决微信自动播放问题
+        function musicInWeixinHandler() {
+            musicPlay(true);
+            document.addEventListener("WeixinJSBridgeReady", function () {
+                musicPlay(true);
+            }, false);
+            document.removeEventListener('DOMContentLoaded', musicInWeixinHandler);
+        }
+        document.addEventListener('DOMContentLoaded', musicInWeixinHandler);
+    }
+    function musicPlay(isPlay) {
+        var media = document.querySelector('#bg-music');
+        if (isPlay && media.paused) {
+            media.play();
+        }
+        if (!isPlay && !media.paused) {
+            media.pause();
+        }
+    }
+    autoPlayMusic();
+
+    //播放暂停动画
+    $("#audioPlay").on("click",function(){
+        var audio= document.querySelector('#bg-music');
+        if(audio.paused){
+            audio.play();
+            $(this).addClass("J_music-anima");
+        }else{
+            audio.pause();
+            $(this).removeClass("J_music-anima");
+        }
+    });
+
+    if(/Android [4-6]/.test(navigator.appVersion)) {
+    window.addEventListener("resize", function() {
+    if(document.activeElement.tagName=="INPUT" || document.activeElement.tagName=="TEXTAREA") {
+    window.setTimeout(function() {
+     document.activeElement.scrollIntoViewIfNeeded();
+     },0);
+       }
+       })
+        }
+
+
+
+
+</script>
+</html>
